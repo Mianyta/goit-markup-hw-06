@@ -748,11 +748,11 @@ transition:background-color var(--timing-function), border var(--timing-function
     border: none;
    
 }
-.btn-close-modal:hover .modal-icon,
-.btn-close-modal:focus .modal-icon {
+.btn-close-modal:hover .modal-icon-close,
+.btn-close-modal:focus .modal-icon-close {
     fill:  #FFFFFF;
 }
-.modal-icon {
+.modal-icon-close {
     transition: fill var(--timing-function);
 }
 
