@@ -590,7 +590,14 @@ letter-spacing: 0.02em;
     justify-content: center;
     align-items: center;
     gap: 24px;
+    
 }
+.footer-button:hover,
+.footer-button:focus {
+    background-color: #404BBF;
+}
+
+
 .footer-sub-icon {
     fill: #FFFFFF;
 }
@@ -847,7 +854,7 @@ align-items: center;
 fill: transparent;
 margin-right: 8px;
 }
-.input-chek:focus + .input-chek-text > .chek-empty {
+.input-chek:checked + .input-chek-text > .chek-empty {
     background-color: #404bbf;
     border: none;
     fill: #fff;
@@ -879,4 +886,8 @@ margin: 0 auto;
 border-radius: 4px;
 max-width: 169px;
 display: block;
+}
+.modal-button:hover,
+.modal-button:focus {
+    background-color: #404BBF;
 }
